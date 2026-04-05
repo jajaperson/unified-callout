@@ -1,0 +1,327 @@
+{
+	"type": "root",
+	"children": [
+		{
+			"type": "heading",
+			"depth": 1,
+			"children": [
+				{
+					"type": "text",
+					"value": "Nested callouts",
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 3,
+							"offset": 2
+						},
+						"end": {
+							"line": 1,
+							"column": 18,
+							"offset": 17
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 1,
+					"column": 18,
+					"offset": 17
+				}
+			}
+		},
+		{
+			"type": "callout",
+			"calloutType": "info",
+			"titled": true,
+			"children": [
+				{
+					"type": "calloutTitle",
+					"children": [
+						{
+							"type": "text",
+							"value": "This callout contains a callout!",
+							"position": {
+								"start": {
+									"line": 3,
+									"column": 12,
+									"offset": 30
+								},
+								"end": {
+									"line": 3,
+									"column": 44,
+									"offset": 62
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 3,
+							"column": 12,
+							"offset": 30
+						},
+						"end": {
+							"line": 3,
+							"column": 44,
+							"offset": 62
+						}
+					}
+				},
+				{
+					"type": "calloutContent",
+					"children": [
+						{
+							"type": "paragraph",
+							"children": [
+								{
+									"type": "text",
+									"value": "And other stuff",
+									"position": {
+										"start": {
+											"line": 4,
+											"column": 3,
+											"offset": 65
+										},
+										"end": {
+											"line": 4,
+											"column": 18,
+											"offset": 80
+										}
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 4,
+									"column": 3,
+									"offset": 65
+								},
+								"end": {
+									"line": 4,
+									"column": 18,
+									"offset": 80
+								}
+							}
+						},
+						{
+							"type": "callout",
+							"calloutType": "tip",
+							"titled": false,
+							"children": [
+								{
+									"type": "calloutContent",
+									"children": [
+										{
+											"type": "callout",
+											"calloutType": "warning",
+											"titled": true,
+											"children": [
+												{
+													"type": "calloutTitle",
+													"children": [
+														{
+															"type": "text",
+															"value": "Nesting ad infinitum.",
+															"position": {
+																"start": {
+																	"line": 7,
+																	"column": 18,
+																	"offset": 112
+																},
+																"end": {
+																	"line": 7,
+																	"column": 39,
+																	"offset": 133
+																}
+															}
+														}
+													],
+													"position": {
+														"start": {
+															"line": 7,
+															"column": 18,
+															"offset": 112
+														},
+														"end": {
+															"line": 7,
+															"column": 39,
+															"offset": 133
+														}
+													}
+												}
+											],
+											"position": {
+												"start": {
+													"line": 7,
+													"column": 5,
+													"offset": 99
+												},
+												"end": {
+													"line": 7,
+													"column": 39,
+													"offset": 133
+												}
+											}
+										}
+									],
+									"position": {
+										"start": {
+											"line": 7,
+											"column": 3,
+											"offset": 97
+										},
+										"end": {
+											"line": 8,
+											"column": 1,
+											"offset": 134
+										}
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 6,
+									"column": 3,
+									"offset": 85
+								},
+								"end": {
+									"line": 8,
+									"column": 1,
+									"offset": 134
+								}
+							},
+							"collapse": "closed"
+						},
+						{
+							"type": "code",
+							"lang": "md",
+							"meta": null,
+							"value": "> [!tip]\n> Code in a callout.",
+							"position": {
+								"start": {
+									"line": 9,
+									"column": 3,
+									"offset": 138
+								},
+								"end": {
+									"line": 12,
+									"column": 6,
+									"offset": 183
+								}
+							}
+						},
+						{
+							"type": "paragraph",
+							"children": [
+								{
+									"type": "text",
+									"value": "How meta.",
+									"position": {
+										"start": {
+											"line": 14,
+											"column": 3,
+											"offset": 188
+										},
+										"end": {
+											"line": 14,
+											"column": 12,
+											"offset": 197
+										}
+									}
+								}
+							],
+							"position": {
+								"start": {
+									"line": 14,
+									"column": 3,
+									"offset": 188
+								},
+								"end": {
+									"line": 14,
+									"column": 12,
+									"offset": 197
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 4,
+							"column": 1,
+							"offset": 63
+						},
+						"end": {
+							"line": 15,
+							"column": 1,
+							"offset": 198
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 3,
+					"column": 1,
+					"offset": 19
+				},
+				"end": {
+					"line": 15,
+					"column": 1,
+					"offset": 198
+				}
+			},
+			"collapse": "open"
+		},
+		{
+			"type": "paragraph",
+			"children": [
+				{
+					"type": "text",
+					"value": "Meta indeed.",
+					"position": {
+						"start": {
+							"line": 16,
+							"column": 1,
+							"offset": 199
+						},
+						"end": {
+							"line": 16,
+							"column": 13,
+							"offset": 211
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 16,
+					"column": 1,
+					"offset": 199
+				},
+				"end": {
+					"line": 16,
+					"column": 13,
+					"offset": 211
+				}
+			}
+		}
+	],
+	"position": {
+		"start": {
+			"line": 1,
+			"column": 1,
+			"offset": 0
+		},
+		"end": {
+			"line": 16,
+			"column": 13,
+			"offset": 211
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"author": "James Jensen <jamesarthurjensen@gmail.com> (https://jaj.sh)",
+	"name": "mdast-util-callout",
+	"repository": "https://github.com/jajaperson/unified-callout/tree/main/packages/mdast-util-callout",
+	"type": "module",
+	"main": "index.js",
+	"version": "0.0.0",
+	"scripts": {
+		"test": "node --conditions development test/index.js",
+		"write-fixtures": "node --conditions development test/write-fixtures.js"
+	},
+	"keywords": [
+		"remark",
+		"markdown",
+		"callout",
+		"obsidian",
+		"ast",
+		"mdast"
+	],
+	"license": "MIT",
+	"packageManager": "pnpm@10.20.0",
+	"bugs": "https://github.com/jajaperson/unified-callout/issues",
+	"contributors": [
+		"James Jensen <jamesarthurjensen@gmail.com> (https://jaj.sh)"
+	],
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"lib"
+	],
+	"dependencies": {
+		"@types/mdast": "^4.0.4",
+		"devlop": "^1.1.0"
+	},
+	"devDependencies": {
+		"micromark-extension-callout": "workspace:*",
+		"mdast-util-from-markdown": "^2.0.3"
+	}
+}

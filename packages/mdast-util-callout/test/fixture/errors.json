@@ -1,0 +1,349 @@
+{
+	"type": "root",
+	"children": [
+		{
+			"type": "paragraph",
+			"children": [
+				{
+					"type": "text",
+					"value": "More body content",
+					"position": {
+						"start": {
+							"line": 1,
+							"column": 1,
+							"offset": 0
+						},
+						"end": {
+							"line": 1,
+							"column": 18,
+							"offset": 17
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 1,
+					"column": 1,
+					"offset": 0
+				},
+				"end": {
+					"line": 1,
+					"column": 18,
+					"offset": 17
+				}
+			}
+		},
+		{
+			"type": "blockquote",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "[not] a callout",
+							"position": {
+								"start": {
+									"line": 3,
+									"column": 3,
+									"offset": 21
+								},
+								"end": {
+									"line": 3,
+									"column": 18,
+									"offset": 36
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 3,
+							"column": 3,
+							"offset": 21
+						},
+						"end": {
+							"line": 3,
+							"column": 18,
+							"offset": 36
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 3,
+					"column": 1,
+					"offset": 19
+				},
+				"end": {
+					"line": 3,
+					"column": 18,
+					"offset": 36
+				}
+			}
+		},
+		{
+			"type": "paragraph",
+			"children": [
+				{
+					"type": "text",
+					"value": "More!!",
+					"position": {
+						"start": {
+							"line": 5,
+							"column": 1,
+							"offset": 38
+						},
+						"end": {
+							"line": 5,
+							"column": 7,
+							"offset": 44
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 5,
+					"column": 1,
+					"offset": 38
+				},
+				"end": {
+					"line": 5,
+					"column": 7,
+					"offset": 44
+				}
+			}
+		},
+		{
+			"type": "blockquote",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "[!]\nNeither is this",
+							"position": {
+								"start": {
+									"line": 7,
+									"column": 3,
+									"offset": 48
+								},
+								"end": {
+									"line": 8,
+									"column": 18,
+									"offset": 69
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 7,
+							"column": 3,
+							"offset": 48
+						},
+						"end": {
+							"line": 8,
+							"column": 18,
+							"offset": 69
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 7,
+					"column": 1,
+					"offset": 46
+				},
+				"end": {
+					"line": 8,
+					"column": 18,
+					"offset": 69
+				}
+			}
+		},
+		{
+			"type": "paragraph",
+			"children": [
+				{
+					"type": "text",
+					"value": "Even more.",
+					"position": {
+						"start": {
+							"line": 10,
+							"column": 1,
+							"offset": 71
+						},
+						"end": {
+							"line": 10,
+							"column": 11,
+							"offset": 81
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 10,
+					"column": 1,
+					"offset": 71
+				},
+				"end": {
+					"line": 10,
+					"column": 11,
+					"offset": 81
+				}
+			}
+		},
+		{
+			"type": "blockquote",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "[!tip\nOr this.",
+							"position": {
+								"start": {
+									"line": 12,
+									"column": 3,
+									"offset": 85
+								},
+								"end": {
+									"line": 13,
+									"column": 11,
+									"offset": 101
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 12,
+							"column": 3,
+							"offset": 85
+						},
+						"end": {
+							"line": 13,
+							"column": 11,
+							"offset": 101
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 12,
+					"column": 1,
+					"offset": 83
+				},
+				"end": {
+					"line": 13,
+					"column": 11,
+					"offset": 101
+				}
+			}
+		},
+		{
+			"type": "paragraph",
+			"children": [
+				{
+					"type": "text",
+					"value": "This is a bit much",
+					"position": {
+						"start": {
+							"line": 15,
+							"column": 1,
+							"offset": 103
+						},
+						"end": {
+							"line": 15,
+							"column": 19,
+							"offset": 121
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 15,
+					"column": 1,
+					"offset": 103
+				},
+				"end": {
+					"line": 15,
+					"column": 19,
+					"offset": 121
+				}
+			}
+		},
+		{
+			"type": "blockquote",
+			"children": [
+				{
+					"type": "paragraph",
+					"children": [
+						{
+							"type": "text",
+							"value": "[!warning]-Or this.",
+							"position": {
+								"start": {
+									"line": 17,
+									"column": 3,
+									"offset": 125
+								},
+								"end": {
+									"line": 17,
+									"column": 22,
+									"offset": 144
+								}
+							}
+						}
+					],
+					"position": {
+						"start": {
+							"line": 17,
+							"column": 3,
+							"offset": 125
+						},
+						"end": {
+							"line": 17,
+							"column": 22,
+							"offset": 144
+						}
+					}
+				}
+			],
+			"position": {
+				"start": {
+					"line": 17,
+					"column": 1,
+					"offset": 123
+				},
+				"end": {
+					"line": 17,
+					"column": 22,
+					"offset": 144
+				}
+			}
+		}
+	],
+	"position": {
+		"start": {
+			"line": 1,
+			"column": 1,
+			"offset": 0
+		},
+		"end": {
+			"line": 17,
+			"column": 22,
+			"offset": 144
+		}
+	}
+}

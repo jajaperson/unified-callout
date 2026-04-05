@@ -1,0 +1,4 @@
+**/test/fixture
+pnpm-lock.yaml
+**/fixture/*.md
+**/fixture/*.json

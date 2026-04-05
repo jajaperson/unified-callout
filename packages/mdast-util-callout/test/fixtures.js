@@ -9,20 +9,24 @@ export const outputDir = new URL("fixture/", import.meta.url);
 /**
  * @type {Array<{description: string, input: string, output: string, process: (inp: Buffer) => string}>}
  */
-export const fixtures = Object.entries(inputs)
-	.map(([name, description]) => ({
-		description,
-		input: `${name}.md`,
-		output: `${name}.json`,
-		process(md) {
-			const ast = fromMarkdown(md, {
-				extensions: [calloutExt()],
-				mdastExtensions: [calloutFromMarkdown()],
-			});
-			return JSON.stringify(ast, null, "\t");
-		},
-	}))
-	.concat({
+const baseFixtures = Object.entries(inputs).map(([name, description]) => ({
+	description,
+	input: `${name}.md`,
+	output: `${name}.json`,
+	process(md) {
+		const ast = fromMarkdown(md, {
+			extensions: [calloutExt()],
+			mdastExtensions: [calloutFromMarkdown()],
+		});
+		return JSON.stringify(ast, null, "\t");
+	},
+}));
+
+/**
+ * @type {Array<{description: string, input: string, output: string, process: (inp: Buffer) => string}>}
+ */
+const customFixtures = [
+	{
 		description: "Should allow extra spaces where valid when `indentedCode` is disabled",
 		input: "extraSpaces.md",
 		output: "extraSpacesNoCode.json",
@@ -33,4 +37,7 @@ export const fixtures = Object.entries(inputs)
 			});
 			return JSON.stringify(ast, null, "\t");
 		},
-	});
+	},
+];
+
+export const fixtures = [...baseFixtures, ...customFixtures];
